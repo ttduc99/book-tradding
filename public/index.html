@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Trading Club</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Book Trading Club</h1>
+
+    <div id="auth">
+      <input id="username" placeholder="Username" />
+      <input id="password" type="password" placeholder="Password" />
+      <button id="signupBtn">Signup</button>
+      <button id="loginBtn">Login</button>
+    </div>
+
+    <div id="settings" style="display: none">
+      <h2>Update Settings</h2>
+      <input id="fullName" placeholder="Full Name" />
+      <input id="city" placeholder="City" />
+      <input id="state" placeholder="State" />
+      <button id="updateSettingsBtn">Update</button>
+    </div>
+
+    <div id="booksSection" style="display: none">
+      <h2>Add Book</h2>
+      <input id="title" placeholder="Title" />
+      <input id="author" placeholder="Author" />
+      <button id="addBookBtn">Add Book</button>
+
+      <h2>All Books</h2>
+      <ul id="books"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

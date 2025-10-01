@@ -1,0 +1,5 @@
+body { font-family: Arial; max-width:800px; margin:0 auto; padding:20px; }
+input { margin:5px; padding:5px; }
+button { margin:5px; padding:5px 10px; }
+ul { list-style:none; padding-left:0; }
+li { margin-bottom:5px; }
