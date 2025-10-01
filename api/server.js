@@ -12,9 +12,9 @@ app.use(express.static('public'));
 mongoose.connect(process.env.MONGO_URI);
 
 // Routes
-app.use('/api/auth', require('./routes/auth'));
-app.use('/api/books', require('./routes/books'));
-app.use('/api/trades', require('./routes/trades'));
+app.use('/api/auth', require('../routes/auth'));
+app.use('/api/books', require('../routes/books'));
+app.use('/api/trades', require('../routes/trades'));
 
 // Start server
 app.listen(process.env.PORT || 3000, () =>
